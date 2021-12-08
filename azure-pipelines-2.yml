@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: mylocalwindow
+  name: mylocalwindow
 
 steps:
 - task: Maven@3
